@@ -1,6 +1,6 @@
 
 
-### Features
+## Features
 
 1. Downloading pictures with multi-processes quickly 
 2. Specifying tags for crawling
@@ -10,11 +10,11 @@
 
 ## Installation Steps
 
-\1. Clone the project into your environment.
-\2. Run `pip install -r requirements.txt`.
-\3. Open your VPN and start global proxy to ensure the script can get access to pixiv.net. (this step is necessary for Chinese users)
-\4. Open pixiv.net and . Place your cookie in the `${your cookie here}` in default.json.
-\5. Specific a tag and output directory for downloading, and set other optional arguments as you need. Then run the script. Example:
+1. Clone the project into your environment.
+2. Run `pip install -r requirements.txt`.
+3. Open your VPN and start global proxy to **ensure the script can get access to pixiv.net**. (this step is necessary for Chinese users)
+4. Follow instructions in [cookie instruction](https://github.com/MiraclesinWang/Advanced-Pixiv-Crawler/blob/main/cookie instruction.md). Place your cookie in the `${your cookie here}` in default.json.
+5. Specific a tag and output directory for downloading, and set other optional arguments as you need. Then run the script. Example:
 
 ```
 python pixiv_crawler.py \
@@ -26,12 +26,22 @@ python pixiv_crawler.py \
 --process_num 10 \
 --like_threshold 0 \
 --must_in_tags loli \
---must_out_tags r18
+--must_out_tags R-18
 ```
 
-Replace the tag with an existing tag of pixiv.net.
+6. Wait for downloading and enjoy pictures of your wife! 
 
-\6. Wait for downloading as enjoy pictures of your wife! 
+## How to get tag name
+
+1. Firstly, search for tags on pixiv.net. 
+
+   <img src='./imgs/tag_search.png'>
+
+2. Then, copy the url into the text editor or utf-16 decoder(https://tool.chinaz.com/tools/urlencode.aspx), which will automatically decode it for you. 
+
+   <img src='./imgs/url_tag_get.png'>
+
+   <img src='./imgs/url_decode.png'>
 
 ## TODO
 
