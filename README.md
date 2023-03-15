@@ -25,8 +25,8 @@ python pixiv_crawler.py \
 --force_ai 2 \
 --process_num 10 \
 --like_threshold 0 \
---must_in_tags loli \
---must_out_tags R-18
+--must_in_tags loli %E5%A5%B3%E3%81%AE%E5%AD%90 \
+--must_out_tags R-18 
 ```
 
 6. Wait for downloading and enjoy pictures of your wife! 
