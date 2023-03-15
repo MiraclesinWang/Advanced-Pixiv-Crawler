@@ -13,7 +13,7 @@
 1. Clone the project into your environment.
 2. Run `pip install -r requirements.txt`.
 3. Open your VPN and start global proxy to **ensure the script can get access to pixiv.net**. (this step is necessary for Chinese users)
-4. Follow instructions in [cookie instruction](https://github.com/MiraclesinWang/Advanced-Pixiv-Crawler/blob/main/cookie instruction.md). Place your cookie in the `${your cookie here}` in default.json.
+4. Follow instructions in [cookie instruction](https://github.com/MiraclesinWang/Advanced-Pixiv-Crawler/blob/main/cookie_instruction%2Emd). Place your cookie in the `${your cookie here}` in default.json.
 5. Specific a tag and output directory for downloading, and set other optional arguments as you need. Then run the script. Example:
 
 ```
